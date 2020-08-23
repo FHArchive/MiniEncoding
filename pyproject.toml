@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "miniencoding"
+version = "2020"
+description = "Ascii representations. Stores ascii as a bitarray in ascii8 form"
+authors = ["FredHappyface"]
+classifiers = [
+	"Environment :: Console",
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"License :: OSI Approved :: MIT License",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.4",
+	"Programming Language :: Python :: 3.5",
+	"Programming Language :: Python :: 3.6",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Utilities"
+]
+homepage = "https://github.com/FHPythonUtils/MiniEncoding"
+repository = "https://github.com/FHPythonUtils/MiniEncoding"
+documentation = "https://github.com/FHPythonUtils/MiniEncoding/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+bitstring = "^3.1.7"
+
+[tool.dephell.main]
+from = "pyproject.toml"
+to = "requirements.txt"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

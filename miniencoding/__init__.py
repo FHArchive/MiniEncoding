@@ -1,0 +1,2 @@
+"""miniencoding module
+"""
