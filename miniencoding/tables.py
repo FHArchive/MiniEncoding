@@ -3,7 +3,7 @@
 https://docs.python.org/2.0/ref/strings.html
 https://en.wikipedia.org/wiki/Six-bit_character_code#Types_of_six-bit_codes
 https://en.wikipedia.org/wiki/GSM_03.38#GSM_7-bit_default_alphabet_and_extension_table_of_3GPP_TS_23.038_/_GSM_03.38
-TODO: https://en.wikipedia.org/wiki/BCD_(character_encoding)
+https://en.wikipedia.org/wiki/BCD_(character_encoding)
 """
 
 from math import log2, ceil
