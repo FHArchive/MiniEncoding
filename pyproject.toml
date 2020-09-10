@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "miniencoding"
-version = "2020"
+version = "2020.1"
 description = "Ascii representations. Stores ascii as a bitarray in ascii8 form"
 authors = ["FredHappyface"]
 classifiers = [

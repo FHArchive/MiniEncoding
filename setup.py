@@ -21,7 +21,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name='miniencoding',
-    version='2020',
+    version='2020.1',
     description='Ascii representations. Stores ascii as a bitarray in ascii8 form',
     python_requires='==3.*,>=3.4.0',
     project_urls={

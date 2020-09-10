@@ -91,6 +91,28 @@ GOST
 GSM7
 # ASCII
 ASCII7
+# IBM 48-character BCDIC code
+IBM48
+# IBM 704 BCD code
+IBM704
+# IBM 7090/7094 character set
+IBM7090
+# IBM 1401 BCD code
+IBM1401
+# GBCD code
+GBCD
+# Burroughs B5500 BCD code
+BURROUGHS_B5500
+# Code page 353
+CP353
+# Code page 355
+CP355
+# Code page 357
+CP357
+# Code page 358
+CP358
+# Code page 359/360
+CP359
 ```
 
 For more info see
